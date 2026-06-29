@@ -1,0 +1,14 @@
+# 1. Make sure these files are NOT in your repo
+# Check your .gitignore covers:
+# my_jaundice_dataset/
+# jaundice_ai_brain.json
+
+# 2. Create empty placeholder files so the folders track
+touch contributions.jsonl
+touch upload_log.jsonl
+
+# 3. Push
+git init
+git add .
+git commit -m "ScleraAI v5 — public launch: consent modal, upload contribution, adaptive brightness"
+git push origin main
