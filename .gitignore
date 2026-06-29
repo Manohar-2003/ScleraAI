@@ -1,0 +1,21 @@
+# NEVER commit face images — privacy
+my_jaundice_dataset/
+
+# Safe to commit (anonymous scores only)
+# contributions.jsonl  ← keep this
+# upload_log.jsonl     ← keep this
+
+# Brain regenerates from data
+jaundice_ai_brain.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
