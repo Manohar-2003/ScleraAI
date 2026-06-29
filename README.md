@@ -38,19 +38,19 @@ Your single image could be the one that makes this model work.
 
 ## How it works
 Webcam / Uploaded image
-↓
+->
 MediaPipe FaceMesh (468 landmarks)
-↓
+->
 Scleral region isolation (nasal sclera, landmark 133→33)
-↓
+->
 Adaptive RGB sampling (scene-normalised brightness check)
-↓
+->
 Yellowness index = (R+G) / (2×B)
-↓
+->
 Weighted linear discriminant boundary
-↓
+->
 Classification + Gaussian likelihood ratio (when model is trained)
-↓
+->
 Background retrain after every contribution
 
 ---
